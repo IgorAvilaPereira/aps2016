@@ -1,0 +1,10 @@
+/* DENTRO DO BANCO postgres */
+
+CREATE TABLE teste (
+	nome text
+);
+
+INSERT INTO teste (nome) VALUES ('Igor');
+INSERT INTO teste (nome) VALUES ('Monica');
+INSERT INTO teste (nome) VALUES ('Mauricio');
+INSERT INTO teste (nome) VALUES ('Everton');
