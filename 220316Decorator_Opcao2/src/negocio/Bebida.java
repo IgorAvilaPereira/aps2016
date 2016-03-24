@@ -28,8 +28,7 @@ public abstract class Bebida {
         if (this.quantidade > 3) {
             return (this.custo()) * 0.5;
         }
-        // fazer para o restante dos descontos....
-        return 0.0;
+        return custo();
     }
 
     public void setQuantidade(double quantidade) {
